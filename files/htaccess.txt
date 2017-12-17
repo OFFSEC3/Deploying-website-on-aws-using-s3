@@ -1,0 +1,7 @@
+Options +FollowSymlinks
+RewriteEngine on
+rewriterule ^wp-content/uploads/(.*)$ http://REPLACE_ME_CF_DOM/$1 [r=301,nc]
+
+# BEGIN WordPress
+
+# END WordPress
